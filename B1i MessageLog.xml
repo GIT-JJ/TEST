@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 		<Payload Role="S" Result="0000" Msg="">
 			<BOM xmlns="">
 				<BO>
@@ -9,7 +9,7 @@
 					<Items>
 						<row>
 							<ItemCode>Z10524</ItemCode>
-							<ItemName>TEST</ItemName>
+							<ItemName>TEST2</ItemName>
 							<ForeignName>мсло кпп</ForeignName>
 							<ItemsGroupCode>100</ItemsGroupCode>
 							<CustomsGroupCode>-1</CustomsGroupCode>
