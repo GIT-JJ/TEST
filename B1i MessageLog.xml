@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Msg xmlns="urn:com.sap.b1i.vplatform:entity" MessageId="17091115435121209476C0A80016F4D8" BeginTimeStamp="20170911154351" recording="true" logmsg="0000" SubMessageId="1" status="success" b1msg="" b1status="success" callMsgLog="true" finalonly="false" msglogexcl="false" handover2CentralSrv="" MessageLog="true" msglogdbop="insert"><Header><msg.occ INB="1" PRC="1" PRQ="0" OUTBIU="n.a." OUT="0"/><msglog step="Default message log" always="false" b1ifactive="true"/><IPO Id="INB_B1_EVNT_ASYN_EVT" tid="17091113422921209464C0A80016C65E"/><Resumption>
+<starter ipo="/vP.0010000100.in_BEAE/com.sap.b1i.vplatform.runtime/INB_B1_EVNT_ASYN_EVT/INB_B1_EVNT_ASYN_EVT.ipo/proc"/>
+<restart id="processing" q="Q.PRC_B1.0010000100" s="S.mtc.B1Item2SKU" u="17091115435121209476C0A80016F4D8.1"/>
+</Resumption><IPO Id="PRC_B1" tid="17091113422921209591C0A800160C5D"/><ProcStream>S.mtc.B1Item2SKU</ProcStream><Sender Id="0010000100" ObjId="4"/><Successor Id="" Mode=""/><Identification Ident="B1 Event" IdPar=""/><nsList xmlns=""/><Retrieval adapter="DI API" type="Object" ruledoc=""/><Outbound type="Void" channel="VOID"/><vBIU Id="mtc.B1Item2SKU" ver="1.0.0" SId="mtc.WMS" filter="" phase=""/><Variables>
+<var id="userid" value="no_authentication"/>
+<var id="username" value="no_authentication"/>
+</Variables><Properties/><SysTypeProperties type="B1if" offline="" snd="0010000100" rcv="receiverdummy" ssystype="B1.9.0" rsystype="">
+<property Key="Country" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Company Language" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Foreign Language" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Company Code" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Credit Control Area" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Sales Organization" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Distribution Channel" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Division" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Plant" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Subsidiaries Customer Number" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Subsidiary Identifier" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Management Report Start Time" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Liquidity Forecasting Start Time" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Account Holder" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+<property Key="Headquarters Vendor Number" Value="" Dir="S" Src="SAP" VSrc="Cfg"/>
+</SysTypeProperties><LocalProperties type="B1if" biu="mtc.B1Item2SKU" snd="0010000100" rcv="receiverdummy" sid="mtc.WMS" offline=""/><VarProperties/><ReceiverList><Receiver Id="0010000000" filter="" sndfilter="" subscribed="true" handover="P"/></ReceiverList></Header><Body><Payload Role="T" Type="B1Event" add="">
+<Event xmlns="">
+<b1e:b1events xmlns:b1e="urn:com.sap.b1i.sim:b1event">
+<b1e:b1event EventID="17091113422921209427C0A80016F9391">
+<b1e:eventsource>FENVA201708_TEST</b1e:eventsource>
+<b1e:objecttype>4</b1e:objecttype>
+<b1e:transactiontype>U</b1e:transactiontype>
+<b1e:usercode>崔新华</b1e:usercode>
+<b1e:userid>T005</b1e:userid>
+<b1e:keys count="1">
+<b1e:key>
+<b1e:name>ItemCode</b1e:name>
+<b1e:value>Z10524</b1e:value>
+</b1e:key>
+</b1e:keys>
+<b1e:sourcesite>192.168.0.37</b1e:sourcesite>
+<b1e:sourceport>30015</b1e:sourceport>
+<b1e:sourcetype>9</b1e:sourcetype>
+<b1e:sld value="192.168.0.37!!FENVA201708_TEST" valueport="192.168.0.37:30015!!FENVA201708_TEST"/>
+</b1e:b1event>
+</b1e:b1events>
+<b1ie:B1IEvent xmlns:b1ie="urn:com.sap.b1i.sim:b1ievent" SysId="0010000100" SysTypeId="B1.9.0" Task="U" LocalObjectType="4">
+<b1ie:PrimaryKeyList>
+<b1ie:PrimaryKey Key="ItemCode" Value="Z10524"/>
+</b1ie:PrimaryKeyList>
+</b1ie:B1IEvent>
+</Event>
+</Payload><Payload Role="S" Result="0000" Msg="">
+<BOM xmlns="">
+<BO>
+<AdmInfo>
+<Object>4</Object>
+<Version>2</Version>
+</AdmInfo>
+<Items>
+<row>
+<ItemCode>Z10524</ItemCode>
+<ItemName>密封环</ItemName>
+<ForeignName>мсло кпп</ForeignName>
+<ItemsGroupCode>100</ItemsGroupCode>
+<CustomsGroupCode>-1</CustomsGroupCode>
+<SalesVATGroup>X1</SalesVATGroup>
+<BarCode nil="true"/>
+<VatLiable>tYES</VatLiable>
+<PurchaseItem>tYES</PurchaseItem>
+<SalesItem>tYES</SalesItem>
+<InventoryItem>tYES</InventoryItem>
+<IncomeAccount nil="true"/>
+<ExemptIncomeAccount nil="true"/>
+<ExpanseAccount nil="true"/>
+<Mainsupplier nil="true"/>
+<SupplierCatalogNo nil="true"/>
+<DesiredInventory>0.000000</DesiredInventory>
+<MinInventory>0.000000</MinInventory>
+<Picture nil="true"/>
+<User_Text nil="true"/>
+<SerialNum nil="true"/>
+<CommissionPercent>0.000000</CommissionPercent>
+<CommissionSum>0.000000</CommissionSum>
+<CommissionGroup>0</CommissionGroup>
+<TreeType>iNotATree</TreeType>
+<AssetItem>tNO</AssetItem>
+<DataExportCode nil="true"/>
+<Manufacturer>-1</Manufacturer>
+<QuantityOnStock>30061.000000</QuantityOnStock>
+<QuantityOrderedFromVendors>0.000000</QuantityOrderedFromVendors>
+<QuantityOrderedByCustomers>15.000000</QuantityOrderedByCustomers>
+<ManageSerialNumbers>tNO</ManageSerialNumbers>
+<ManageBatchNumbers>tNO</ManageBatchNumbers>
+<Valid>tYES</Valid>
+<ValidFrom nil="true"/>
+<ValidTo nil="true"/>
+<ValidRemarks nil="true"/>
+<Frozen>tNO</Frozen>
+<FrozenFrom nil="true"/>
+<FrozenTo nil="true"/>
+<FrozenRemarks nil="true"/>
+<SalesUnit nil="true"/>
+<SalesItemsPerUnit>1.000000</SalesItemsPerUnit>
+<SalesPackagingUnit nil="true"/>
+<SalesQtyPerPackUnit>1.000000</SalesQtyPerPackUnit>
+<SalesUnitLength>0.000000</SalesUnitLength>
+<SalesLengthUnit nil="true">0</SalesLengthUnit>
+<SalesUnitWidth>0.000000</SalesUnitWidth>
+<SalesWidthUnit nil="true">0</SalesWidthUnit>
+<SalesUnitHeight>0.000000</SalesUnitHeight>
+<SalesHeightUnit nil="true">0</SalesHeightUnit>
+<SalesUnitVolume>0.000000</SalesUnitVolume>
+<SalesVolumeUnit>2</SalesVolumeUnit>
+<SalesUnitWeight>0.000000</SalesUnitWeight>
+<SalesWeightUnit nil="true">0</SalesWeightUnit>
+<PurchaseUnit nil="true"/>
+<PurchaseItemsPerUnit>1.000000</PurchaseItemsPerUnit>
+<PurchasePackagingUnit nil="true"/>
+<PurchaseQtyPerPackUnit>1.000000</PurchaseQtyPerPackUnit>
+<PurchaseUnitLength>0.000000</PurchaseUnitLength>
+<PurchaseLengthUnit nil="true">0</PurchaseLengthUnit>
+<PurchaseUnitWidth>0.000000</PurchaseUnitWidth>
+<PurchaseWidthUnit nil="true">0</PurchaseWidthUnit>
+<PurchaseUnitHeight>0.000000</PurchaseUnitHeight>
+<PurchaseHeightUnit nil="true">0</PurchaseHeightUnit>
+<PurchaseUnitVolume>0.000000</PurchaseUnitVolume>
+<PurchaseVolumeUnit>2</PurchaseVolumeUnit>
+<PurchaseUnitWeight>0.000000</PurchaseUnitWeight>
+<PurchaseWeightUnit nil="true">0</PurchaseWeightUnit>
+<PurchaseVATGroup>J1</PurchaseVATGroup>
+<SalesFactor1>1.000000</SalesFactor1>
+<SalesFactor2>1.000000</SalesFactor2>
+<SalesFactor3>1.000000</SalesFactor3>
+<SalesFactor4>1.000000</SalesFactor4>
+<PurchaseFactor1>1.000000</PurchaseFactor1>
+<PurchaseFactor2>1.000000</PurchaseFactor2>
+<PurchaseFactor3>1.000000</PurchaseFactor3>
+<PurchaseFactor4>1.000000</PurchaseFactor4>
+<MovingAveragePrice>0.000000</MovingAveragePrice>
+<ForeignRevenuesAccount nil="true"/>
+<ECRevenuesAccount nil="true"/>
+<ForeignExpensesAccount nil="true"/>
+<ECExpensesAccount nil="true"/>
+<AvgStdPrice>0.000000</AvgStdPrice>
+<DefaultWarehouse nil="true"/>
+<ShipType nil="true">0</ShipType>
+<GLMethod>glm_ItemClass</GLMethod>
+<TaxType>tt_Yes</TaxType>
+<MaxInventory>0.000000</MaxInventory>
+<ManageStockByWarehouse>tYES</ManageStockByWarehouse>
+<PurchaseHeightUnit1 nil="true">0</PurchaseHeightUnit1>
+<PurchaseUnitHeight1>0.000000</PurchaseUnitHeight1>
+<PurchaseLengthUnit1 nil="true">0</PurchaseLengthUnit1>
+<PurchaseUnitLength1>0.000000</PurchaseUnitLength1>
+<PurchaseWeightUnit1 nil="true">0</PurchaseWeightUnit1>
+<PurchaseUnitWeight1>0.000000</PurchaseUnitWeight1>
+<PurchaseWidthUnit1 nil="true">0</PurchaseWidthUnit1>
+<PurchaseUnitWidth1>0.000000</PurchaseUnitWidth1>
+<SalesHeightUnit1 nil="true">0</SalesHeightUnit1>
+<SalesUnitHeight1>0.000000</SalesUnitHeight1>
+<SalesLengthUnit1 nil="true">0</SalesLengthUnit1>
+<SalesUnitLength1>0.000000</SalesUnitLength1>
+<SalesWeightUnit1 nil="true">0</SalesWeightUnit1>
+<SalesUnitWeight1>0.000000</SalesUnitWeight1>
+<SalesWidthUnit1 nil="true">0</SalesWidthUnit1>
+<SalesUnitWidth1>0.000000</SalesUnitWidth1>
+<ForceSelectionOfSerialNumber>tYES</ForceSelectionOfSerialNumber>
+<ManageSerialNumbersOnReleaseOnly>tNO</ManageSerialNumbersOnReleaseOnly>
+<WTLiable>tNO</WTLiable>
+<CostAccountingMethod>bis_MovingAverage</CostAccountingMethod>
+<SWW nil="true"/>
+<WarrantyTemplate nil="true"/>
+<IndirectTax>tNO</IndirectTax>
+<ArTaxCode nil="true"/>
+<ApTaxCode nil="true"/>
+<BaseUnitName nil="true"/>
+<ItemCountryOrg nil="true"/>
+<IssueMethod>im_Backflush</IssueMethod>
+<SRIAndBatchManageMethod>bomm_OnReleaseOnly</SRIAndBatchManageMethod>
+<IsPhantom>tNO</IsPhantom>
+<InventoryUOM nil="true"/>
+<PlanningSystem>bop_None</PlanningSystem>
+<ProcurementMethod>bom_Buy</ProcurementMethod>
+<ComponentWarehouse>bomcw_BOM</ComponentWarehouse>
+<OrderIntervals nil="true">0</OrderIntervals>
+<OrderMultiple>0.000000</OrderMultiple>
+<LeadTime nil="true">0</LeadTime>
+<MinOrderQuantity>0.000000</MinOrderQuantity>
+<ItemType>itItems</ItemType>
+<ItemClass>itcMaterial</ItemClass>
+<OutgoingServiceCode>-1</OutgoingServiceCode>
+<IncomingServiceCode>-1</IncomingServiceCode>
+<ServiceGroup>-1</ServiceGroup>
+<NCMCode>-1</NCMCode>
+<MaterialType>mt_FinishedGoods</MaterialType>
+<MaterialGroup>-1</MaterialGroup>
+<ProductSource>0</ProductSource>
+<Properties1>tNO</Properties1>
+<Properties2>tNO</Properties2>
+<Properties3>tNO</Properties3>
+<Properties4>tNO</Properties4>
+<Properties5>tNO</Properties5>
+<Properties6>tNO</Properties6>
+<Properties7>tNO</Properties7>
+<Properties8>tNO</Properties8>
+<Properties9>tNO</Properties9>
+<Properties10>tNO</Properties10>
+<Properties11>tNO</Properties11>
+<Properties12>tNO</Properties12>
+<Properties13>tNO</Properties13>
+<Properties14>tNO</Properties14>
+<Properties15>tNO</Properties15>
+<Properties16>tNO</Properties16>
+<Properties17>tNO</Properties17>
+<Properties18>tNO</Properties18>
+<Properties19>tNO</Properties19>
+<Properties20>tNO</Properties20>
+<Properties21>tNO</Properties21>
+<Properties22>tNO</Properties22>
+<Properties23>tNO</Properties23>
+<Properties24>tNO</Properties24>
+<Properties25>tNO</Properties25>
+<Properties26>tNO</Properties26>
+<Properties27>tNO</Properties27>
+<Properties28>tNO</Properties28>
+<Properties29>tNO</Properties29>
+<Properties30>tNO</Properties30>
+<Properties31>tNO</Properties31>
+<Properties32>tNO</Properties32>
+<Properties33>tNO</Properties33>
+<Properties34>tNO</Properties34>
+<Properties35>tNO</Properties35>
+<Properties36>tNO</Properties36>
+<Properties37>tNO</Properties37>
+<Properties38>tNO</Properties38>
+<Properties39>tNO</Properties39>
+<Properties40>tNO</Properties40>
+<Properties41>tNO</Properties41>
+<Properties42>tNO</Properties42>
+<Properties43>tNO</Properties43>
+<Properties44>tNO</Properties44>
+<Properties45>tNO</Properties45>
+<Properties46>tNO</Properties46>
+<Properties47>tNO</Properties47>
+<Properties48>tNO</Properties48>
+<Properties49>tNO</Properties49>
+<Properties50>tNO</Properties50>
+<Properties51>tNO</Properties51>
+<Properties52>tNO</Properties52>
+<Properties53>tNO</Properties53>
+<Properties54>tNO</Properties54>
+<Properties55>tNO</Properties55>
+<Properties56>tNO</Properties56>
+<Properties57>tNO</Properties57>
+<Properties58>tNO</Properties58>
+<Properties59>tNO</Properties59>
+<Properties60>tNO</Properties60>
+<Properties61>tNO</Properties61>
+<Properties62>tNO</Properties62>
+<Properties63>tNO</Properties63>
+<Properties64>tNO</Properties64>
+<AutoCreateSerialNumbersOnRelease>tNO</AutoCreateSerialNumbersOnRelease>
+<DNFEntry>-1</DNFEntry>
+<GTSItemSpec nil="true"/>
+<GTSItemTaxCategory nil="true"/>
+<FuelID>-1</FuelID>
+<BeverageTableCode nil="true"/>
+<BeverageGroupCode nil="true"/>
+<BeverageCommercialBrandCode>-1</BeverageCommercialBrandCode>
+<Series>3</Series>
+<ToleranceDays nil="true">0</ToleranceDays>
+<TypeOfAdvancedRules>toarGeneral</TypeOfAdvancedRules>
+<IssuePrimarilyBy>ipbSerialAndBatchNumbers</IssuePrimarilyBy>
+<NoDiscounts>tNO</NoDiscounts>
+<AssetClass/>
+<AssetGroup/>
+<InventoryNumber/>
+<Technician nil="true">0</Technician>
+<Employee nil="true">0</Employee>
+<Location nil="true">0</Location>
+<AssetStatus>New</AssetStatus>
+<CapitalizationDate nil="true"/>
+<StatisticalAsset>tNO</StatisticalAsset>
+<Cession>tNO</Cession>
+<DeactivateAfterUsefulLife>tNO</DeactivateAfterUsefulLife>
+<ManageByQuantity>tNO</ManageByQuantity>
+<UoMGroupEntry>-1</UoMGroupEntry>
+<InventoryUoMEntry nil="true">0</InventoryUoMEntry>
+<DefaultSalesUoMEntry nil="true">0</DefaultSalesUoMEntry>
+<DefaultPurchasingUoMEntry nil="true">0</DefaultPurchasingUoMEntry>
+<DepreciationGroup nil="true"/>
+<AssetSerialNumber/>
+<InventoryWeight>0.000000</InventoryWeight>
+<InventoryWeightUnit nil="true">0</InventoryWeightUnit>
+<InventoryWeight1>0.000000</InventoryWeight1>
+<InventoryWeightUnit1 nil="true">0</InventoryWeightUnit1>
+<DefaultCountingUnit nil="true"/>
+<CountingItemsPerUnit>1.000000</CountingItemsPerUnit>
+<DefaultCountingUoMEntry nil="true">0</DefaultCountingUoMEntry>
+<Excisable>tNO</Excisable>
+<ChapterID>-1</ChapterID>
+<ScsCode nil="true"/>
+<SpProdType nil="true"/>
+<ProdStdCost>0.000000</ProdStdCost>
+<InCostRollup>tYES</InCostRollup>
+<VirtualAssetItem>tNO</VirtualAssetItem>
+<EnforceAssetSerialNumbers>tNO</EnforceAssetSerialNumbers>
+<AttachmentEntry nil="true">0</AttachmentEntry>
+<LinkedResource nil="true"/>
+<GSTRelevnt>tNO</GSTRelevnt>
+<SACEntry>-1</SACEntry>
+<GSTTaxCategory>gtc_Regular</GSTTaxCategory>
+<U_BOY_TB_0>N</U_BOY_TB_0>
+<U_BOY_38_IISW>N</U_BOY_38_IISW>
+<U_FV_SBrand>ZF</U_FV_SBrand>
+<U_FV_ProductLine>105</U_FV_ProductLine>
+<U_FV_OECode>0501 330 817 01</U_FV_OECode>
+<U_FV_CarBrand nil="true"/>
+<U_FV_AppModels>商用车</U_FV_AppModels>
+<U_FV_EngineType nil="true"/>
+<U_FV_Age nil="true"/>
+<U_FV_EngineCC nil="true"/>
+<U_FV_Gearbox nil="true"/>
+<U_FV_PrdctClass>1011</U_FV_PrdctClass>
+<U_FV_ITEMTYPE>101110</U_FV_ITEMTYPE>
+<U_FV_CRITEMNAME>10111010</U_FV_CRITEMNAME>
+<U_FV_PrintName nil="true"/>
+<U_FV_POECode>LS13006001</U_FV_POECode>
+<U_FV_PAppModels>别克：新君威/君越/新凯越/新GL8/  雪弗兰：科鲁兹/科帕奇/迈锐宝</U_FV_PAppModels>
+<U_FV_PrintComments nil="true"/>
+<U_FV_EN nil="true"/>
+<U_FV_CHCode nil="true"/>
+<U_FV_DeclareName nil="true"/>
+<U_FV_OutBoxLength nil="true"/>
+<U_FV_OutBoxWidth nil="true"/>
+<U_FV_OutBoxHeighe nil="true"/>
+<U_FV_OutBoxVolume nil="true"/>
+<U_FV_GW nil="true"/>
+<U_FV_MZ nil="true"/>
+<U_FV_Purchasing>1</U_FV_Purchasing>
+<U_FV_InnerBag>1</U_FV_InnerBag>
+<U_FV_Packet nil="true"/>
+<U_FV_Thickness nil="true"/>
+<U_FV_material nil="true"/>
+<U_FV_lhg nil="true"/>
+<U_FV_level nil="true"/>
+<U_FV_SimpleName>MFH</U_FV_SimpleName>
+<U_FV_InputBillName nil="true"/>
+<U_FV_OutputBillName nil="true"/>
+</row>
+</Items>
+<Items_Prices>
+<row>
+<PriceList>1</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>1</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>2</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>2</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>3</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>3</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>4</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>4</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>5</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>5</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>6</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>6</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>7</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>7</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>8</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>8</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>9</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>9</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>10</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>10</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>11</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>11</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+<row>
+<PriceList>12</PriceList>
+<Price nil="true">0.000000</Price>
+<Currency nil="true"/>
+<AdditionalPrice1 nil="true">0.000000</AdditionalPrice1>
+<AdditionalCurrency1 nil="true"/>
+<AdditionalPrice2 nil="true">0.000000</AdditionalPrice2>
+<AdditionalCurrency2 nil="true"/>
+<BasePriceList>12</BasePriceList>
+<Factor>1.000000</Factor>
+</row>
+</Items_Prices>
+<ItemWarehouseInfo>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>1.333444</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10010</WarehouseCode>
+<InStock>29962.000000</InStock>
+<Committed>15.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10011</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10012</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10013</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>1.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10110</WarehouseCode>
+<InStock>99.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10111</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10112</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10113</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10114</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10210</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10211</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10212</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10213</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10214</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>10310</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+<row>
+<MinimalStock>0.000000</MinimalStock>
+<MaximalStock>0.000000</MaximalStock>
+<MinimalOrder>0.000000</MinimalOrder>
+<StandardAveragePrice>0.000000</StandardAveragePrice>
+<Locked>tNO</Locked>
+<InventoryAccount nil="true"/>
+<CostAccount nil="true"/>
+<TransferAccount nil="true"/>
+<RevenuesAccount nil="true"/>
+<VarienceAccount nil="true"/>
+<DecreasingAccount nil="true"/>
+<IncreasingAccount nil="true"/>
+<ReturningAccount nil="true"/>
+<ExpensesAccount nil="true"/>
+<EURevenuesAccount nil="true"/>
+<EUExpensesAccount nil="true"/>
+<ForeignRevenueAcc nil="true"/>
+<ForeignExpensAcc nil="true"/>
+<ExemptIncomeAcc nil="true"/>
+<PriceDifferenceAcc nil="true"/>
+<WarehouseCode>90010</WarehouseCode>
+<InStock>0.000000</InStock>
+<Committed>0.000000</Committed>
+<Ordered>0.000000</Ordered>
+<CountedQuantity>0.000000</CountedQuantity>
+<WasCounted>tNO</WasCounted>
+<UserSignature>8</UserSignature>
+<Counted>0.000000</Counted>
+<ExpenseClearingAct nil="true"/>
+<PurchaseCreditAcc nil="true"/>
+<EUPurchaseCreditAcc nil="true"/>
+<ForeignPurchaseCreditAcc nil="true"/>
+<SalesCreditAcc nil="true"/>
+<SalesCreditEUAcc nil="true"/>
+<ExemptedCredits nil="true"/>
+<SalesCreditForeignAcc nil="true"/>
+<ExpenseOffsettingAccount nil="true"/>
+<WipAccount nil="true"/>
+<ExchangeRateDifferencesAcct nil="true"/>
+<GoodsClearingAcct nil="true"/>
+<NegativeInventoryAdjustmentAccount nil="true"/>
+<CostInflationOffsetAccount nil="true"/>
+<GLDecreaseAcct nil="true"/>
+<GLIncreaseAcct nil="true"/>
+<PAReturnAcct nil="true"/>
+<PurchaseAcct nil="true"/>
+<PurchaseOffsetAcct nil="true"/>
+<ShippedGoodsAccount nil="true"/>
+<StockInflationOffsetAccount nil="true"/>
+<StockInflationAdjustAccount nil="true"/>
+<VATInRevenueAccount nil="true"/>
+<WipVarianceAccount nil="true"/>
+<CostInflationAccount nil="true"/>
+<WHIncomingCenvatAccount nil="true"/>
+<WHOutgoingCenvatAccount nil="true"/>
+<StockInTransitAccount nil="true"/>
+<WipOffsetProfitAndLossAccount nil="true"/>
+<InventoryOffsetProfitAndLossAccount nil="true"/>
+<DefaultBin nil="true">0</DefaultBin>
+<DefaultBinEnforced>tNO</DefaultBinEnforced>
+<PurchaseBalanceAccount nil="true"/>
+</row>
+</ItemWarehouseInfo>
+</BO>
+</BOM>
+</Payload><Payload Role="X" id="atom2" ts="2017/09/11 15:44:00">
+<call xmlns="">
+<connect>
+<destProtocol>http</destProtocol>
+<destHost>192.168.0.88</destHost>
+<destPort>8080</destPort>
+<destPath>/fwms/rest/interfaceController/postJsonData</destPath>
+<query/>
+<proxyHost/>
+<proxyPort/>
+<method>POST</method>
+<authentification>basic</authentification>
+<user>sap</user>
+<password>********</password>
+<user2query/>
+<password2query/>
+<trustStoreURI/>
+<keyStoreURI/>
+<tlsVersion/>
+</connect>
+<dtd/>
+<pltype>json</pltype>
+<payload>
+<io xmlns="urn:com.sap.b1i.bizprocessor:bizatoms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pltype="json" xsi:schemaLocation="urn:com.sap.b1i.bizprocessor:bizatoms json_pltype.xsd">
+<object>
+<string name="intfkey">SKU</string>
+<string name="userkey">sap</string>
+<string name="pwd">sap</string>
+<string name="dtype">json</string>
+<object name="data">
+<string name="sku">11104</string>
+<string name="name">散热器 AT 32 TEST </string>
+<string name="susr5">0</string>
+<string name="stdgrosswgt">9.4</string>
+<string name="stdnetwgt">9.4</string>
+<string name="stdcube">0</string>
+<string name="abc">C</string>
+<string name="businessfield01">Радиатор автомат 32</string>
+<string name="businessfield02">Radiator</string>
+<string name="businessfield03">N</string>
+<string name="businessfield04">21460-7S000</string>
+<string name="businessfield05">Checkstar</string>
+<string name="businessfield06">INFINITI QX56</string>
+<string name="businessfield07">水箱散热器</string>
+<string name="businessfield08">8708911000</string>
+<string name="businessfield09">VK56DE</string>
+<string name="businessfield10">04-</string>
+<string name="businessfield11">5.6</string>
+<string name="businessfield12">01</string>
+<string name="businessfield13">NISSAN</string>
+<string name="businessfield14">AL</string>
+<string name="businessfield15"/>
+<string name="businessfield16"/>
+<string name="businessfield17"/>
+<string name="businessfield18"/>
+<string name="businessfield19"/>
+<string name="businessfield20"/>
+<string name="businessfield21"/>
+<string name="businessfield22"/>
+<string name="businessfield23"/>
+<string name="businessfield24"/>
+<string name="businessfield26"/>
+<string name="lt_bib"/>
+<string name="lt_gearbox">AT</string>
+<string name="lt_innerbag">1</string>
+<string name="lt_packet"/>
+<string name="lt_pappmodels">NI QX56</string>
+<string name="lt_poecode">F-21460-7S000</string>
+<string name="lt_thickness">32</string>
+</object>
+</object>
+</io>
+</payload>
+<htta>
+<par id="httpheader.???" value=""/>
+<par id="htta.returnpltypeforce" value=""/>
+<par id="htta.returnpltypedefault" value=""/>
+</htta>
+</call>
+</Payload><Payload Role="C" id="atom1" statusNo="0" statusMsg="success" reference="atom2" sysid="" payload="atom2" throwException="false">
+<http.header>
+<http.header.info id="Transfer-Encoding" value="chunked"/>
+<http.header.info id="Server" value="Apache-Coyote/1.1"/>
+<http.header.info id="Date" value="Mon, 11 Sep 2017 07:44:01 GMT"/>
+<http.header.info id="Content-Type" value="application/json;charset=UTF-8"/>
+</http.header>
+<io xmlns="urn:com.sap.b1i.bizprocessor:bizatoms" pltype="json">
+<object>
+<string name="retCode">BE-0139</string>
+<string name="retReason">BE-0139: 处理数据失败</string>
+<string name="retReasondetail">com.zero.exception.BizException: BE-0143: 字段ownerkey不能为空</string>
+<string name="result"/>
+</object>
+</io>
+</Payload><Payload Role="R" id="atom0" ts="2017/09/11 15:44:00" pltype="xml">
+<http.header>
+<http.header.info id="Transfer-Encoding" value="chunked"/>
+<http.header.info id="Server" value="Apache-Coyote/1.1"/>
+<http.header.info id="Date" value="Mon, 11 Sep 2017 07:44:01 GMT"/>
+<http.header.info id="Content-Type" value="application/json;charset=UTF-8"/>
+</http.header>
+<io xmlns="urn:com.sap.b1i.bizprocessor:bizatoms" pltype="json">
+<object>
+<string name="retCode">BE-0139</string>
+<string name="retReason">BE-0139: 处理数据失败</string>
+<string name="retReasondetail">com.zero.exception.BizException: BE-0143: 字段ownerkey不能为空</string>
+<string name="result"/>
+</object>
+</io>
+</Payload></Body></Msg>
